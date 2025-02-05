@@ -1,0 +1,85 @@
+2025-02-05 15:55:24 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18891
+ * Running on http://192.168.180.181:18891
+2025-02-05 15:55:24 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-05 15:55:26 [DEBUG] server: recieve /api/insert_image request
+2025-02-05 15:55:27 [DEBUG] server: call insert_image_example_in_memory START Global
+2025-02-05 15:55:27 [DEBUG] larkAPI: «Î«Û tenant_access_token, URL: https://open.larksuite.com/open-apis/auth/v3/tenant_access_token/internal/, payload: {'app_id': 'cli_a6ec0559c4be502f', 'app_secret': 'JlWPUAUbiuZNlYcI6DkVjbgs3holBWhI'}
+2025-02-05 15:55:27 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): open.larksuite.com:443
+2025-02-05 15:55:28 [DEBUG] urllib3.connectionpool: https://open.larksuite.com:443 "POST /open-apis/auth/v3/tenant_access_token/internal/ HTTP/11" 200 102
+2025-02-05 15:55:28 [DEBUG] larkAPI: ªÒ»° tenant_access_token ≥…π¶: t-g206256tSLPCHLXEBBMTPHGXUFWCSIW3XF4WAKM2
+2025-02-05 15:55:28 [DEBUG] docx_utils: ªÒ»° ACCESS_TOKEN ≥…π¶: t-g206256tSLPCHLXEBBMTPHGXUFWCSIW3XF4WAKM2
+2025-02-05 15:55:28 [DEBUG] screenshot: ‰Ø¿¿∆˜∆Ù∂Ø≤Œ ˝…Ë÷√Œ™: ['--window-size=1400,9000', '--disable-gpu', '--no-sandbox']
+2025-02-05 15:55:28 [DEBUG] screenshot: ΩÿÕº“—±£¥Ê÷¡ temp_screenshot.png
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing BlpImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing BmpImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing BufrStubImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing CurImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing DcxImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing DdsImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing EpsImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing FitsImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing FliImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing FpxImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing FtexImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing GbrImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing GifImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing GribStubImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing Hdf5StubImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing IcnsImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing IcoImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing ImImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing ImtImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing IptcImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing JpegImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing Jpeg2KImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing McIdasImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing MicImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing MpegImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing MpoImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing MspImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing PalmImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing PcdImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing PcxImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing PdfImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing PixarImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing PngImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing PpmImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing PsdImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing QoiImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing SgiImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing SpiderImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing SunImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing TgaImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing TiffImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing WebPImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing WmfImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing XbmImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing XpmImagePlugin
+2025-02-05 15:55:28 [DEBUG] PIL.Image: Importing XVThumbImagePlugin
+2025-02-05 15:55:28 [ERROR] screenshot: Õº∆¨◊™ªªŒ™ base64  ß∞‹: cannot identify image file 'C:\\Users\\yaoke\\Desktop\\screenshot\\temp_screenshot.png'
+Traceback (most recent call last):
+  File "c:\Users\yaoke\Desktop\screenshot\screenshot.py", line 39, in capture_full_page_screenshot_base64
+    with Image.open(temp_image_path) as img:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaoke\AppData\Roaming\Python\Python312\site-packages\PIL\Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file 'C:\\Users\\yaoke\\Desktop\\screenshot\\temp_screenshot.png'
+2025-02-05 15:55:28 [ERROR] server: [api_insert_image] error: cannot identify image file 'C:\\Users\\yaoke\\Desktop\\screenshot\\temp_screenshot.png'
+Traceback (most recent call last):
+  File "c:\Users\yaoke\Desktop\screenshot\decard_screenshot.py", line 24, in api_insert_image
+    insert_image_example_in_memory("V0Hxd7J8PoYwYNxA1z4l7dWrg3f", "Global")
+  File "c:\Users\yaoke\Desktop\screenshot\docx_utils.py", line 462, in insert_image_example_in_memory
+    image_data = capture_full_page_screenshot_base64(REGION)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\yaoke\Desktop\screenshot\screenshot.py", line 39, in capture_full_page_screenshot_base64
+    with Image.open(temp_image_path) as img:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaoke\AppData\Roaming\Python\Python312\site-packages\PIL\Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file 'C:\\Users\\yaoke\\Desktop\\screenshot\\temp_screenshot.png'
+
+2025-02-05 15:55:28 [INFO] werkzeug: 127.0.0.1 - - [05/Feb/2025 15:55:28] "[35m[1mPOST /api/insert_image HTTP/1.1[0m" 500 -
